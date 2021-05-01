@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <h3>Bookmarker</h3>
+            </div>
+        </header>
+        <div class="container">
+            <div class="well">
+                <div class="column">
+                    <h2>Bookmark your favorite sites </h2>
+                    <p>Site Name</p>
+                    <input id="siteName" placeholder="Bookmark Name" type="text">
+                    <p class="alert alert-error m-auto" id="nameError" style="display: none;"></p>
+                    <p>Site URL</p>
+                    <input id="siteUrl" placeholder="website URL" type="text">
+                    <p class="alert alert-error m-auto" id="urlError" style="display: none;"></p>
+                    <div class="m-auto">
+                            <button class="btn btn-primary" onclick="submit()">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="bookmarkList" class="column">
+                
+             <div class="webwell row" id="facebook"><h2>facebook</h2><a class="btn btn-primary" href="https://www.facebook.com" target="_blank">visit</a><button class="btn btn-danger btndelete">Delete</button></div> </div>
+        </div>
+        <footer>
+            <div class="container">
+                <p>© 2019 Bookmarker Inc.</p>
+            </div>
+        </footer>
+      
+
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/home.js"></script>
+    </body>
+</html>
